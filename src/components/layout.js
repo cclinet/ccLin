@@ -30,6 +30,7 @@ const Layout = ({ location, title, children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </span>
+        {`    `}
         <span>
           <a
             rel="license"
