@@ -38,7 +38,7 @@ const Layout = ({ location, title, children }) => {
           >
             <img
               alt="知识共享许可协议"
-              style={{borderWidth: 0}}
+              style={{ borderWidth: 0 }}
               src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"
             />
           </a>
