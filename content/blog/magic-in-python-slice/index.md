@@ -1,9 +1,10 @@
 ---
-title: Python 切片魔法
+title: magic-in-python-slice
 date: "2022-03-08T11:54:03.423Z"
 description: "Python 切片魔法"
 ---
 
+# Python 切片魔法
 从朋友那里得知了 Python 的一个有趣的现象
 
 ```python
