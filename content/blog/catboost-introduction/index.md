@@ -42,3 +42,5 @@ $$
 
 - GreedyLogSum
   MaxLogSum 的贪心近似
+
+类别特征转换
