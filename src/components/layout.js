@@ -1,5 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import * as layoutStyles from "./layout.module.css"
+import Footer from "./footer"
+import Header from "./header"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -21,35 +24,16 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        <div className={"friends"}>
-          <span>friends: </span>
-          <a href={"https://www.angeszhu.cn"}>AngesZhu</a>
-        </div>
-        <div>
-          <span>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.com">Gatsby</a>
-          </span>
-          {`    `}
-          <span>
-            <a
-              rel="license"
-              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-            >
-              <img
-                alt="知识共享许可协议"
-                style={{ borderWidth: 0 }}
-                src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"
-              />
-            </a>
-          </span>
-        </div>
-      </footer>
+    // <div className="global-wrapper" data-is-root-path={isRootPath}>
+    //   <header className="global-header">{header}</header>
+    //   <main>{children}</main>
+    //   {/*<Footer/>*/}
+    // </div>
+    <div className={layoutStyles.container}>
+      <header>
+        <Header />
+      </header>
+      <main className={layoutStyles.main}>{children}</main>
     </div>
   )
 }

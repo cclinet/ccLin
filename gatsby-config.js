@@ -3,7 +3,7 @@ module.exports = {
     title: `ccLin Blog`,
     author: {
       name: `cclin`,
-      summary: `an elementary school student`,
+      // summary: `an elementary school student`,
     },
     description: `A starter blog`,
     siteUrl: `https://cclin.org`,

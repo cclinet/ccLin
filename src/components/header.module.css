@@ -1,0 +1,8 @@
+.headerContainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.5rem;
+    /*position: fixed;*/
+    width: 100px;
+}
