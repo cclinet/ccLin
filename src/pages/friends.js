@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 
-const Friend = location => {
+const Friends = location => {
   return (
     <Layout location={location}>
       <ul>
@@ -12,4 +12,4 @@ const Friend = location => {
     </Layout>
   )
 }
-export default Friend
+export default Friends

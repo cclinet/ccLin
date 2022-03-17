@@ -1,8 +1,25 @@
+.nav {
+    background: #747d8c;
+    display: flex;
+    flex-direction: column;
+
+    width: 80px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
 .headerContainer {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    row-gap: 3.5rem;
-    /*position: fixed;*/
-    width: 100px;
+    row-gap: 1rem;
+    width: 100%;
+    padding: 0;
+    justify-items: center;
+    margin-top: 4rem;
+}
+
+.li {
+    color: #ffffff;
 }
